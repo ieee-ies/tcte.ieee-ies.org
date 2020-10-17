@@ -2,7 +2,7 @@ name: website_update
 on:
   push:
   schedule:
-    - cron:  '20  2 * * *'
+    - cron:  '40  2 * * *'
 
 jobs:
   build:
